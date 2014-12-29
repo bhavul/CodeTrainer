@@ -1,5 +1,7 @@
 #CodeZap
-CodeZap (inspired from PokeZap in Pokemon) is a small utility application written in python v2.7.x with love to work as to build a csv file database (well, actually two files, but technically one) to store the information of online judge problems I do, and the keywords I associate with them. 
+CodeZap (inspired from PokeZap in Pokemon) is a small utility application written with love in python v2.7.x for it to work to build a csv file database (well, actually two files, but technically one) to store the information of online judge problems I do, and the keywords I associate with them. 
+
+Read 'How it works?' section below to have a better understanding of it.
 
 
 ##How to write into database?
