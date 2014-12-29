@@ -91,12 +91,12 @@ class Application(Frame):
 
 			########## FOR TagWise FILE ###########################################
 			allTagsEntered = self.TagsEnter.get().split(',')
-			print allTagsEntered
+			# print allTagsEntered
 			allTagsEntered = map(str.strip,allTagsEntered)
-			print allTagsEntered
+			# print allTagsEntered
 			fileByTagw = open(tagFileAddress,"wb")
 			cByTagw = csv.writer(fileByTagw)
-			print "dictTagWise : "+str(dictTagwise)
+			# print "dictTagWise : "+str(dictTagwise)
 			for tag in allTagsEntered:
 				if tag in dictTagwise.keys():
 					list = dictTagwise[tag]
@@ -119,7 +119,7 @@ class Application(Frame):
 
 
 root = Tk()								#a necessary step
-root.title("Enter into database")		#this'll be title of your main application
+root.title("CodeTrainer-Writer")		#this'll be title of your main application
 app = Application(root)					#Making a frame of it?
 root.bind('<Return>', app.enterData)	#So that we don't have to 'click' submit button
 root.geometry("270x220")				#looks good?	
