@@ -1,16 +1,20 @@
-#CodeTrainer
-Code Trainer is a small utility application written in python v2.7.x with love to work as to build a csv file database (well, actually two files, but technically one) to store the information of online judge problems I do, and the keywords I associate with them. 
+#CodeZap
+CodeZap (inspired from PokeZap in Pokemon) is a small utility application written in python v2.7.x with love to work as to build a csv file database (well, actually two files, but technically one) to store the information of online judge problems I do, and the keywords I associate with them. 
 
 
 ##How to write into database?
 
- 1.  You write ID/Name of the Problem.
- 2.  You input the keywords you want to associate with it.
- 3.  Click on 'submit' or just press Enter.
+ 1.  Open your command line in the directory and run the command `python writer.py`
+ 2.  You write ID/Name of the Problem.
+ 3.  You input the keywords you want to associate with it.
+ 4.  Click on 'submit' or just press Enter.
 
 ##How to read from database? 
 
-coming soon....
+Open your command line in the directory and run the command `python reader.py`
+Enter ID into the `Search by ID` field to get the results of tags associated with it.
+Or
+Enter any tag into the `Search by Tag` field to get the associated problem name/IDs.
 
 ##How it works? 
 
@@ -44,9 +48,14 @@ Now, say in future, you come across a point of time when you're writing code for
 You can also search a problem by its name to get all its keywords/tags that you've defined.
 
 
-##Future
+##Future Work
 
-Right now, it doesn't support editing an entry that's already feeded in. Also, it makes the two text files in the same directory right now. Plus, the user has to go through the process or compiling the app to run it. 
+The following features could be added to the application to make it more convenient and better.
+
+ - Being able to edit an already filled entry through the application.
+ - Making search results in Reader app behave like dynamic links, clicking on which they get inputted into the corresponding boxes and get auto-submitted. Also, this would require a back button, so as to move to previous value.
+ - Changing grid system to pack and improving layout, making it more responsive.
+ - Ability to have a settings window for the application through which you can browse and select the path where you want to store the two database files.
 
 I'll remove these dependencies and issues whenever I get time.
 This project's aim was basically to help 'me' in competitive programming, and also to kinda learn how GUI works in python.
@@ -55,3 +64,4 @@ This project's aim was basically to help 'me' in competitive programming, and al
 ##Author
 
 Bhavul Gauri
+
