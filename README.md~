@@ -54,10 +54,12 @@ You can also search a problem by its name to get all its keywords/tags that you'
 
 The following features could be added to the application to make it more convenient and better.
 
+ - Reader scans if tag exists as a substring of any other tag. Also, casing should be ignored while checking.
  - Being able to edit an already filled entry through the application.
  - Making search results in Reader app behave like dynamic links, clicking on which they get inputted into the corresponding boxes and get auto-submitted. Also, this would require a back button, so as to move to previous value.
  - Changing grid system to pack and improving layout, making it more responsive.
  - Ability to have a settings window for the application through which you can browse and select the path where you want to store the two database files.
+
 
 I'll remove these dependencies and issues whenever I get time.
 This project's aim was basically to help 'me' in competitive programming, and also to kinda learn how GUI works in python.

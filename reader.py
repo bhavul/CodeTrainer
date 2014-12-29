@@ -3,8 +3,8 @@ from Tkinter import *
 import os.path
 
 #################################### BASIC CONFIGURATION ###########################################
-idFileAddress = "IDWise"
-tagFileAddress = "TagWise"
+idFileAddress = "/home/bhavul/Dropbox/Programming/Practice/IDWise"
+tagFileAddress = "/home/bhavul/Dropbox/Programming/Practice/TagWise"
 ####################################################################################################
 
 

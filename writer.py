@@ -2,9 +2,9 @@ import csv
 from Tkinter import *
 import os.path
 
-#################################### BASIC CONFIGURATION ###########################################
-idFileAddress = "IDWise"
-tagFileAddress = "TagWise"
+#################################### BASIC CONFIGURATION (replace by your own URLs) ###########################################
+idFileAddress = "/home/bhavul/Dropbox/Programming/Practice/IDWise"
+tagFileAddress = "/home/bhavul/Dropbox/Programming/Practice/TagWise"
 ####################################################################################################
 
 
