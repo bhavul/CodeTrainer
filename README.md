@@ -1,25 +1,25 @@
-#CodeZap
+# CodeZap
 
 CodeZap (inspired from PokeZap in Pokemon) is a small utility application written with love in python v2.7.x for it to work to build a csv file database (well, actually two files, but technically one) to store the information of online judge problems I do, and the keywords I associate with them. 
 
 Read 'How it works?' section below to have a better understanding of it.
 
 
-##How to write into database?
+## How to write into database?
 
  1.  Open your command line in the directory and run the command `python writer.py`
  2.  You write ID/Name of the Problem.
  3.  You input the keywords you want to associate with it.
  4.  Click on 'submit' or just press Enter.
 
-##How to read from database? 
+## How to read from database? 
 
 Open your command line in the directory and run the command `python reader.py`
 Enter ID into the `Search by ID` field to get the results of tags associated with it.
 Or
 Enter any tag into the `Search by Tag` field to get the associated problem name/IDs.
 
-##How it works? 
+## How it works? 
 
 This way you can input problems and your favourite keywords into the database.
 
@@ -51,7 +51,7 @@ Now, say in future, you come across a point of time when you're writing code for
 You can also search a problem by its name to get all its keywords/tags that you've defined.
 
 
-##Future Work
+## Future Work
 
 The following features could be added to the application to make it more convenient and better.
 
@@ -66,7 +66,7 @@ I'll remove these dependencies and issues whenever I get time.
 This project's aim was basically to help 'me' in competitive programming, and also to kinda learn how GUI works in python.
 
 
-##Author
+## Author
 
 Bhavul Gauri
 
